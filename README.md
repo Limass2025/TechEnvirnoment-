@@ -64,11 +64,11 @@ bash
 sudo rm /usr/photos/renamed.txt
 D. Advanced Commands
 Recursive listing
-e
+
 bash
 sudo ls -R /usr/photos
 Find command
 
 bash
 sudo find /home -name "*.txt"
-https://screenshots/find-command.png
+e
