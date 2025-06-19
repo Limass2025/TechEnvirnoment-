@@ -1,28 +1,30 @@
-Linux Commands Implementation
-A. Basic Navigation
+#### Linux Commands Implementation
+## A. Basic Navigation
 Current Directory
 
 bash
 pwd
-a
+![alt text](pwd.png)
 
-List Root Directory
+# List Root Directory
 
 bash
 sudo ls -l /
-b
+
 
 Navigate to /usr
 
 bash
 cd /usr
 pwd
-B. Directory Creation (Side Hustle Task 1)
+## B.  Directory Creation (Side Hustle Task 1)
 Create photos directory
 
 bash
 sudo mkdir /usr/photos
-Create 3 subdirectories
+
+![alt text](<Screenshot from 2025-06-18 16-23-01.png>)
+# Create 3 subdirectories
 
 bash
 sudo mkdir /usr/photos/{vacation,family,events}
@@ -30,16 +32,17 @@ Verify creation
 
 bash
 sudo ls -l /usr/photos
-c
 
-Navigate and show path
+![alt text](<Screenshot from 2025-06-18 16-34-26-1.png>)
+
+# Navigate and show path!
 
 bash
 cd /usr/photos/vacation
 pwd
-d
+![alt text](pwd-1.png)
 
-C. File Operations
+## C. File Operations
 Create test file
 
 bash
@@ -48,9 +51,9 @@ View file content
 
 bash
 sudo cat /etc/os-release
-e
+![alt text](<Screenshot from 2025-06-18 16-31-03.png>)
 
-Copy file
+# Copy file
 
 bash
 sudo cp /usr/photos/example.txt /usr/photos/example_copy.txt
@@ -62,7 +65,9 @@ Delete file
 
 bash
 sudo rm /usr/photos/renamed.txt
-D. Advanced Commands
+
+![alt text](<Screenshot from 2025-06-18 16-33-01.png>)
+## D. Advanced Commands
 Recursive listing
 
 bash
@@ -71,4 +76,4 @@ Find command
 
 bash
 sudo find /home -name "*.txt"
-e
+![alt text](<Screenshot from 2025-06-18 16-34-26.png>)
